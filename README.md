@@ -27,16 +27,23 @@ flutter_api_fetch/
 
 ## Setup Instructions
 
-### 1️⃣ Install Flutter
+1️⃣ Install Flutter
 Ensure Flutter is installed. If not, download it from [Flutter's official site](https://flutter.dev/docs/get-started/install).
 Verify installation with:
 ```sh
 flutter --version
 
 ```
+2️⃣ Clone or Download the Project
+If using GitHub, clone the repository:
+```sh
+git clone <your-repo-url>
+cd flutter_api_fetch
+```
+Otherwise,
  extract the ZIP file and navigate to the project folder.
 
-### 3️⃣ Install Dependencies
+3️⃣ Install Dependencies
 Run the following command to install required packages:
 ```sh
 flutter pub get
@@ -48,12 +55,12 @@ Connect a real device or start an emulator, then execute:
 flutter run
 ```
 
-## API Details
+API Details
 - **Endpoint:** `https://jsonplaceholder.typicode.com/posts`
 - **Response:** JSON array of posts with `id` and `title`
 - **HTTP Library Used:** `http` package
 
-## Assumptions & Enhancements
+Assumptions & Enhancements
 - The app assumes the API is always available; however, error handling is implemented.
 - Further enhancements could include pagination, search functionality, and UI styling improvements.
 
